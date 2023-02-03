@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sidebar</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="header">
+        <img class="logo" src="./images/logo.svg">
+        <button id="menu-button" onclick="openCloseSidebar()">
+          <img class="menu" src="./images/menu.svg">
+        </button>
+      </div>
+
+      <div class="search">
+        <button class="search-button" onclick="openCloseSidebar()">
+          <img src="./images/search.svg">
+        </button>
+        <input type="text" placeholder="Buscar">
+      </div>
+
+      <div class="content">
+        <div class="botao">
+          <img src="./images/grid.svg">
+          <p>Dashboard</p>
+        </div>
+
+        <div class="botao">
+          <img src="./images/pet.svg">
+          <p>Pets</p>
+        </div>
+
+        <div class="botao">
+          <img src="./images/user.svg">
+          <p>Clientes</p>
+        </div>
+
+        <div class="botao">
+          <img src="./images/vet.svg">
+          <p>Vets</p>
+        </div>
+
+        <div class="botao">
+          <img src="./images/settings.svg">
+          <p>Ajustes</p>
+        </div>
+      </div>
+
+      <div class="footer">
+        <img class="avatar" src="./images/photo.jpg">
+
+        <span>
+          <p>Eleanor Pena</p>
+          <p>Veterinária</p>
+        </span>
+
+        <button class="log-out" onclick="openCloseSidebar()">
+          <img src="./images/log-out.svg">
+        </button>
+      </div>
+    </div>
+    <div class="titulo">
+      <h1>Dashboard</h1>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html> 
